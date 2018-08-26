@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A page for exporing basic HTML">
+    <title>Basic HTML document</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<ul class="top">
+		<a href="#mark"><li>efwef</li></a>
+		<li>wef</li>
+		<li>wefw</li>
+	</ul>
+    <h1 style="color:blue;font-size:500%; font-family:verdana; text-align:center">The Head</h1>
+    <h2><mark>Page content</mark></h2>
+    <h3 class="colorful">Page <span>sefsef </span>content</h3>
+	<h4>
+		<a href="https:www.google.com" target="_blank">This is a subhead</a>
+	</h4>
+	<p><cite>How to read a book</cite> written by who</p>
+	<hr>
+	<table style="width: 100%">
+		<caption style="border: 3px solid yellow">
+			What a funny thing!
+		</caption>
+		<tr>
+			<th><a href="https://www.google.com">H1</a></th>
+			<th>H2</th>
+			<th>H3</th>
+			<th rowspan="2"><button>H4</button></th>
+		</tr>
+		<tr>
+			<td>sef</td>
+			<td>sew</td>
+			<td>waeg</td>
+		</tr>
+	</table>
+	<pre>
+		<small>What a pre looks like?</small>      Spaces?
+		<a href="#mark">Linebreaks?</a>
+		And so on?
+		Oh! Maybe this one looks better!
+	</pre>
+	<p>The goals of <abbr  title="World Wide Fund for Nature">WWF</abbr>:<br>
+		<blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+	</p>
+	<audio controls>
+		<source src="dpx.mp3" style="audio/mpeg">
+		Your browser doesn't suppurt the audio element
+	</audio>
+	<dl>
+		<dt>SB</dt>
+		<dd>dpx</dd>
+		<dd>sfg</dd>
+		<dt>HH</dt>
+		<dd>hhk</dd>
+		<dd>awf</dd>
+	</dl>
+	<p><bdo dir="rtl">The another way to display</bdo></p>
+    <h4>Page content</h4>
+	<p>This is a paragraph</p>
+	<p id="dark">
+		This is a dark paragraph
+	</p>
+	<p>This is another <a href="https://www.google.com">one</a></p>
+    <p style="color:red">This is the mail <b>page</b> that will appeal<img title="I'm SY" src="sy.jpg" alt="SY not Found" style="float:left; width:50px; hight:50px"></a> to the audience and any one who want to see this content.</P>
+	<p title="I'm the google">please click on this to find more intresting<button><a href="https://www.google.jp">Click <a href="https://www.google.com">Me</a></a></button></p>
+	<ul style="text-align:center; background-color:mediumseagreen; list-style-type: circle">
+		<li title="I'm so happy"><ins>hahaha</ins></li>
+		<li>ahsfwa</li>
+		<li>afewwfe</li>
+	</ul>
+	<ol type="I" start="14">
+		<li>wfew</li>
+		<li>wefwf</li>
+		<li>wfefwf</li>
+	</ol>
+	<hr>
+	<ul>
+		<li>a
+		</li>
+		<li>b</li>
+		<li>c</li>
+	</ul>
+	<iframe src="https://www.google.com" name="iframe_a" style="hight: 300px; width: 100%"></iframe>
+	<p><a href="https://wgwansui.github.io" target="iframe_a">W3Schools.com</a></p>
+	<img src="sy.JPG" alt="SY not found" style="float:left; width:50px; hight:50px">
+	<address id="mark" style="border: 5px solid mediumseagreen">
+		Wrtten by Tai Yintao<br>
+		2018
+	</address>
+  </body>
+</html>
+
