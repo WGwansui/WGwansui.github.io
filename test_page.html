@@ -4,8 +4,114 @@
     <meta charset="utf-8">
     <meta name="description" content="A page for exporing basic HTML">
     <title>Basic HTML document</title>
-	<link rel="stylesheet" href="style.css">
-  </head>
+  <style>
+	  p {
+	color:gray;
+	background-color:orange;
+	font-family:verdana;
+	padding: 20px;
+	border: 2px solid blue;
+	margin:40px;
+}
+
+#dark {
+	background-color: black;
+	color: rgb(255,255,255);
+	border: 2px solid blue;
+	margin:50px;
+	padding:20px;
+	text-align:center;
+}
+h3.colorful {
+	border:5px solid red;
+	background-color: blue;
+	color: gray;
+	margin: 80px;
+	padding:5px;
+}
+a {
+	target="_blank";
+	
+}
+a:link {
+	color: green;
+	background-color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: pink;
+	background-color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	background-color: green;
+	text-decoration: none;
+	font-family:"Times New Roman";
+}
+a:active {
+	color: yellow;
+	background-color: red;
+	text-decoration: none;
+}
+table, th, td {
+	border: 2px solid green;
+	border-collapse: collapse;
+	
+}
+th, td {
+	padding: 20px;
+	text-align: center;
+}
+th a:hover {
+	background-color: white;
+	font-family: "times new romen";
+}
+th:hover {
+	background-color: yellow;
+}
+table {
+	background-color: mediumseagreen;
+	margin: 5px;
+	border-spacing: 15px;
+}
+ol {
+	overflow: hidden;
+	list-style-type: none;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	background-color: #333333;
+	margin: 0px;
+	color: white;
+	overflow: hidden;
+}
+li {
+	float: left;
+	padding-right: 40px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+li:hover {
+	background-color: #111111;
+}
+
+ol li:hover{
+	color: white;
+}
+.top {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0px;
+	z-index: 1;
+}
+
+  </style>
+</head>
   <body>
 	<ul class="top">
 		<a href="#mark"><li>efwef</li></a>
