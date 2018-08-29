@@ -1,0 +1,91 @@
+ul.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #333333;
+	
+}
+ul.nav li{
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 20px;
+	float: left;
+	align: center;
+	color: white;
+	font-family: "verdana";
+	font-size: 30px;
+	list-style-type: none;
+}
+
+ul.nav a {
+	text-decoration: none;
+}
+ul.nav a li:hover {
+	color: yellow;
+	background-color: #111111
+}
+ul.nav a li:active {
+	color: gray;
+	background-color: white;
+}
+ul.nav a li:visited {
+	color: white;
+}
+
+.slide-date-bar {
+	left: 0;
+	top: 80px;
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	border-right: 2px #555555 solid;
+	width: 200px;
+	height: 100%;
+	align: center;
+	z-index: 1;
+}
+h3.small-title {
+	font-size: 20px;
+	font-family: verdana;
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: none;
+}
+div.slide-date-bar p:hover {
+	color: white;
+	background-color: gray;
+}
+.date{
+	text-align: center;
+	width: 100%;
+	padding-right: 0px;
+}
+
+.blog {
+	margin-left: 200px;
+	margin-top: 100px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
